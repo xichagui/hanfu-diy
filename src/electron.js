@@ -1,10 +1,10 @@
 // 控制应用生命周期和创建原生浏览器窗口的模组
 
 const path = require("path");
-const { app, BrowserWindow,Menu } = require("electron");
+const {app, BrowserWindow, Menu} = require("electron");
 
 const isDevelopment = require("electron-is-dev")
-console.log("isDevelopment",isDevelopment)
+console.log("isDevelopment", isDevelopment)
 
 function createWindow() {
   // 创建浏览器窗口
